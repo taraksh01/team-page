@@ -113,7 +113,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Montserrat",sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   line-height: 17px;
   color: #a9a9a9;
@@ -126,4 +126,47 @@ footer {
 #username {
   font-weight: 700;
   color: #a9a9a9;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .about-team {
+    width: 100%;
+  }
+
+  main {
+    margin: 0;
+    gap: 10px;
+  }
+
+  .up,
+  .down {
+    max-width: 48%;
+    height: 270px;
+  }
+
+  .top {
+    align-items: flex-start;
+  }
+
+  .bottom {
+    align-items: flex-end;
+  }
+
+  .card {
+    width: 156px;
+    height: 240px;
+  }
+
+  img {
+    width: 140px;
+  }
+
+  footer {
+    flex: 0 0 60px;
+  }
 }
