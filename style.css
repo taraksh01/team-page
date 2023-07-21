@@ -51,11 +51,43 @@ h2 {
 main {
   flex: 1 1 auto;
   display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 260px;
+  height: 380px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
-  width: 240px;
+  width: 230px;
   height: auto;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.role {
+  font-family: "PT Serif", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  writing-mode: vertical-lr;
+  margin: 0;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 0;
 }
 
 footer {
