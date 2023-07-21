@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -9,6 +11,17 @@ body {
 
 header {
   flex: 0 1 auto;
+  display: flex;
+}
+
+h1 {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  text-align: left;
+  padding-left: 48px;
 }
 
 main {
