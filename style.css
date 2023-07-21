@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
 
 body {
   margin: 0 auto;
@@ -112,7 +113,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Montserrat;
+  font-family: "Montserrat",sans-serif;
   font-size: 14px;
   line-height: 17px;
   color: #a9a9a9;
