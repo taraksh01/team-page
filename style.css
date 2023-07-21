@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+header {
+  flex: 0 1 auto;
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+}
+
+img {
+  width: 240px;
+  height: auto;
+}
+
+footer {
+  flex: 0 0 40px;
+}
